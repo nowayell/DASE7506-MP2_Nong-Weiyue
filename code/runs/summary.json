@@ -1,0 +1,1058 @@
+{
+  "seed": 20261029,
+  "validation_n": 798,
+  "hard_n": 355,
+  "records": [
+    {
+      "mode": "E0",
+      "validation": 0.8471177944862155,
+      "validation_hard": 0.6647887323943662
+    },
+    {
+      "mode": "E1",
+      "reg": 0.001,
+      "validation": 0.9035087719298246,
+      "validation_hard": 0.8,
+      "trials": [
+        {
+          "reg": 1e-05,
+          "oof": 0.873186119873817,
+          "oof_hard": 0.7294228949858089,
+          "optimizers": [
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.0001,
+          "oof": 0.8837013669821241,
+          "oof_hard": 0.749763481551561,
+          "optimizers": [
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.001,
+          "oof": 0.900105152471083,
+          "oof_hard": 0.7814569536423841,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 114,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 88,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 84,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 78,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 109,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.01,
+          "oof": 0.8961093585699264,
+          "oof_hard": 0.7771996215704825,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 29,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 29,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 28,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 29,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 34,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        }
+      ],
+      "seconds": 35.42793199999869,
+      "optimizer": {
+        "success": true,
+        "iterations": 87,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    },
+    {
+      "mode": "G0",
+      "reg": 0.01,
+      "validation": 0.8884711779448622,
+      "validation_hard": 0.7830985915492957,
+      "trials": [
+        {
+          "reg": 1e-05,
+          "oof": 0.8487907465825447,
+          "oof_hard": 0.6892147587511825,
+          "optimizers": [
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.0001,
+          "oof": 0.8616193480546793,
+          "oof_hard": 0.7109744560075686,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 179,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 174,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 182,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 181,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 190,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.001,
+          "oof": 0.8769716088328076,
+          "oof_hard": 0.7374645222327342,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 78,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 76,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 87,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 89,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 80,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.01,
+          "oof": 0.8767613038906414,
+          "oof_hard": 0.738883632923368,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 32,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 32,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 34,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 37,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 35,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        }
+      ],
+      "seconds": 32.550722199999655,
+      "optimizer": {
+        "success": true,
+        "iterations": 35,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    },
+    {
+      "mode": "E2",
+      "reg": 0.01,
+      "validation": 0.9097744360902256,
+      "validation_hard": 0.8056338028169014,
+      "trials": [
+        {
+          "reg": 1e-05,
+          "oof": 0.8778128286014721,
+          "oof_hard": 0.7407757805108799,
+          "optimizers": [
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.0001,
+          "oof": 0.8902208201892744,
+          "oof_hard": 0.7634815515610217,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 150,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 161,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 156,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 156,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 164,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.001,
+          "oof": 0.90136698212408,
+          "oof_hard": 0.781929990539262,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 80,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 77,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 78,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 70,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 83,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.01,
+          "oof": 0.9047318611987382,
+          "oof_hard": 0.7904446546830652,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 29,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 30,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 31,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 31,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 31,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        }
+      ],
+      "seconds": 30.980312499999854,
+      "optimizer": {
+        "success": true,
+        "iterations": 33,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    },
+    {
+      "mode": "E3",
+      "reg": 0.01,
+      "validation": 0.924812030075188,
+      "validation_hard": 0.8309859154929577,
+      "trials": [
+        {
+          "reg": 1e-05,
+          "oof": 0.8975814931650894,
+          "oof_hard": 0.7701040681173131,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 185,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 197,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.0001,
+          "oof": 0.903049421661409,
+          "oof_hard": 0.78240302743614,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 141,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 149,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 155,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 150,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 148,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.001,
+          "oof": 0.9114616193480547,
+          "oof_hard": 0.8008514664143803,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 73,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 79,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 76,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 78,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 77,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.01,
+          "oof": 0.9156677181913775,
+          "oof_hard": 0.8107852412488175,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 30,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 33,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 34,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 32,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 38,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        }
+      ],
+      "seconds": 30.15536289999909,
+      "optimizer": {
+        "success": true,
+        "iterations": 35,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    },
+    {
+      "mode": "E4",
+      "reg": 0.01,
+      "validation": 0.9260651629072681,
+      "validation_hard": 0.8338028169014085,
+      "trials": [
+        {
+          "reg": 1e-05,
+          "oof": 0.8982124079915877,
+          "oof_hard": 0.7715231788079471,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 199,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": true,
+              "iterations": 192,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.0001,
+          "oof": 0.903049421661409,
+          "oof_hard": 0.78240302743614,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 145,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 138,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 153,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 148,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 145,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.001,
+          "oof": 0.9123028391167193,
+          "oof_hard": 0.8027436140018922,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 73,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 80,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 81,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 80,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 79,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.01,
+          "oof": 0.9146161934805468,
+          "oof_hard": 0.8084200567644276,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 30,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 35,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 33,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 31,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 37,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        }
+      ],
+      "seconds": 30.639876400000503,
+      "optimizer": {
+        "success": true,
+        "iterations": 34,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    },
+    {
+      "mode": "A1",
+      "reg": 0.01,
+      "validation": 0.9285714285714286,
+      "validation_hard": 0.8394366197183099,
+      "trials": [
+        {
+          "reg": 1e-05,
+          "oof": 0.8986330178759201,
+          "oof_hard": 0.772469252601703,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 193,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 186,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.0001,
+          "oof": 0.9028391167192429,
+          "oof_hard": 0.781929990539262,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 137,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 142,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 157,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 152,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 158,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.001,
+          "oof": 0.9118822292323869,
+          "oof_hard": 0.8017975402081362,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 73,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 78,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 71,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 76,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 73,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.01,
+          "oof": 0.9146161934805468,
+          "oof_hard": 0.8084200567644276,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 34,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 34,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 35,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 31,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 33,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        }
+      ],
+      "seconds": 30.45116980000057,
+      "optimizer": {
+        "success": true,
+        "iterations": 35,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    },
+    {
+      "mode": "A2",
+      "reg": 0.01,
+      "validation": 0.9110275689223057,
+      "validation_hard": 0.8056338028169014,
+      "trials": [
+        {
+          "reg": 1e-05,
+          "oof": 0.8752891692954784,
+          "oof_hard": 0.7360454115421002,
+          "optimizers": [
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            },
+            {
+              "success": false,
+              "iterations": 200,
+              "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT"
+            }
+          ]
+        },
+        {
+          "reg": 0.0001,
+          "oof": 0.8887486855941115,
+          "oof_hard": 0.760643330179754,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 172,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 175,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 167,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 170,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 169,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.001,
+          "oof": 0.9047318611987382,
+          "oof_hard": 0.7880794701986755,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 81,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 82,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 79,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 79,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 85,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        },
+        {
+          "reg": 0.01,
+          "oof": 0.9041009463722397,
+          "oof_hard": 0.7880794701986755,
+          "optimizers": [
+            {
+              "success": true,
+              "iterations": 33,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 37,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 35,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 34,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            },
+            {
+              "success": true,
+              "iterations": 36,
+              "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+            }
+          ]
+        }
+      ],
+      "seconds": 32.11410280000018,
+      "optimizer": {
+        "success": true,
+        "iterations": 36,
+        "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      }
+    }
+  ],
+  "comparisons": {
+    "E2-E0": {
+      "corrected": 67,
+      "introduced": 17,
+      "hard_ci95": [
+        0.09295774647887324,
+        0.18873239436619718
+      ]
+    },
+    "E2-G0": {
+      "corrected": 39,
+      "introduced": 22,
+      "hard_ci95": [
+        -0.016901408450704224,
+        0.059154929577464786
+      ]
+    },
+    "E3-E2": {
+      "corrected": 19,
+      "introduced": 7,
+      "hard_ci95": [
+        0.0,
+        0.05352112676056338
+      ]
+    },
+    "E4-E3": {
+      "corrected": 2,
+      "introduced": 1,
+      "hard_ci95": [
+        -0.005633802816901409,
+        0.014084507042253521
+      ]
+    },
+    "A1-E4": {
+      "corrected": 2,
+      "introduced": 0,
+      "hard_ci95": [
+        0.0,
+        0.014084507042253521
+      ]
+    },
+    "A2-E4": {
+      "corrected": 6,
+      "introduced": 18,
+      "hard_ci95": [
+        -0.05352112676056338,
+        -0.0028169014084507044
+      ]
+    }
+  },
+  "seconds": 226.55815430000075,
+  "test_used": false
+}

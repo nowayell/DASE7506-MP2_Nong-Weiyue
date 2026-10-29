@@ -1,0 +1,10 @@
+{
+  "mode": "E3",
+  "reason": "Predeclared preference for simpler configuration when gains are small: E4 improves validation by only one question; E3 has stronger train OOF hard accuracy. A1 gains three validation questions but is exploratory and retains implicit vote interactions.",
+  "test_consulted": false,
+  "assets": {
+    "runs\\E3\\config.json": "cea68f58da5ff07affb963732c1a3a6e1cdfabbf3407b149983558c64ed63913",
+    "runs\\E3\\weights.npz": "2de8de81441622f69b1403f727c4f68ffd2de2f031d56799aa2b920156141e31"
+  },
+  "arithmetic_candidate_coverage": 0.1300125313283208
+}

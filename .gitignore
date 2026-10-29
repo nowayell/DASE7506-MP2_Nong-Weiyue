@@ -2,6 +2,7 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
-runs/
 .DS_Store
 Thumbs.db
+~$*.docx
+code/runs/reproduced-*
